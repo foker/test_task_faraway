@@ -1,0 +1,23 @@
+.root {
+  padding: 2rem 0;
+}
+
+.grid {
+  margin-top: 2rem;
+}
+
+.pagination {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.errorContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  color: #FF3D00;
+  font-size: 1.2rem;
+  text-align: center;
+} 

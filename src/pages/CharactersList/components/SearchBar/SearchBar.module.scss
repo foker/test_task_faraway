@@ -1,0 +1,26 @@
+.root {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.input {
+  background-color: rgba(26, 26, 26, 0.9);
+  border: 1px solid rgba(255, 232, 31, 0.1);
+  color: #B3B3B3;
+
+  &:hover {
+    border-color: rgba(255, 232, 31, 0.3);
+  }
+
+  &.focused {
+    border-color: #FFE81F;
+  }
+}
+
+.icon {
+  color: #FFE81F;
+}
+
+.inputText {
+  color: #FFFFFF;
+} 

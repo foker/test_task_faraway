@@ -1,0 +1,39 @@
+.header {
+  background-color: rgba(0, 0, 0, 0.9) !important;
+  border-bottom: 2px solid #FFE81F;
+}
+
+.logoLink {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  color: #FFE81F;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-shadow: 0 0 10px rgba(255, 232, 31, 0.5);
+}
+
+.navigation {
+  margin-left: auto;
+  display: flex;
+  gap: 1rem;
+}
+
+.navLink {
+  color: #FFFFFF;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+
+  &:hover {
+    color: #FFE81F;
+    background-color: rgba(255, 232, 31, 0.1);
+  }
+} 

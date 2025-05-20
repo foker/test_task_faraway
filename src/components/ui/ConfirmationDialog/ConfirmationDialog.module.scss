@@ -1,0 +1,42 @@
+.dialog {
+  :global {
+    .MuiDialog-paper {
+      background-color: rgba(26, 26, 26, 0.95);
+      border: 1px solid rgba(255, 232, 31, 0.2);
+    }
+  }
+}
+
+.paper {
+  min-width: 320px;
+}
+
+.title {
+  color: #FFE81F;
+  font-weight: 600;
+}
+
+.message {
+  color: #B3B3B3;
+}
+
+.actions {
+  padding: 1rem;
+  gap: 1rem;
+}
+
+.cancelButton {
+  color: #B3B3B3;
+  &:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+}
+
+.confirmButton {
+  background-color: #FFE81F;
+  color: #000000;
+  &:hover {
+    background-color: #FFE81F;
+    opacity: 0.9;
+  }
+} 

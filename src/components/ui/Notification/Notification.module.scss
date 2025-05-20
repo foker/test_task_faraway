@@ -1,0 +1,7 @@
+.snackbar {
+  :global {
+    .MuiAlert-root {
+      min-width: 300px;
+    }
+  }
+} 

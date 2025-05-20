@@ -1,0 +1,67 @@
+.root {
+  padding: 2rem 0;
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+.paper {
+  padding: 2rem;
+  background-color: rgba(26, 26, 26, 0.9) !important;
+  border: 1px solid rgba(255, 232, 31, 0.1);
+  animation: slideUp 0.5s ease-in-out;
+}
+
+.title {
+  color: #FFE81F;
+  margin-bottom: 2rem;
+  font-weight: 600;
+  animation: glow 2s ease-in-out infinite alternate;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.fieldGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.buttonGroup {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  justify-content: flex-end;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes glow {
+  from {
+    text-shadow: 0 0 10px rgba(255, 232, 31, 0.5);
+  }
+  to {
+    text-shadow: 0 0 20px rgba(255, 232, 31, 0.8),
+                 0 0 30px rgba(255, 232, 31, 0.6);
+  }
+} 
