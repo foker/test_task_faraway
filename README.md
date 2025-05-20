@@ -8,7 +8,7 @@ mock server:
 cd mock-server
 npm i
 npm run dev
-...
+```
 
 frontend app:
 ```
